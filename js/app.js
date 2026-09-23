@@ -1,9 +1,9 @@
 
 function alterarStatus(id) {
-    let jogo = document.getElementById("game-" + id);
+    const jogo = document.getElementById("game-" + id);
 
-    let imagem = jogo.querySelector(".dashboard__item__img");
-    let botao = jogo.querySelector(".dashboard__item__button");
+    const imagem = jogo.querySelector(".dashboard__item__img");
+    const botao = jogo.querySelector(".dashboard__item__button");
 
     if (imagem.classList.contains("dashboard__item__img--rented")) {
         imagem.classList.remove("dashboard__item__img--rented");
